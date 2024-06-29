@@ -1,0 +1,53 @@
+.ant-layout-sider-children{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+    background-color: #ffb349; 
+    color: #242424;
+}
+
+.ant-layout{
+    background-color: #242424;
+    color: white;
+}
+.ant-layout-header{
+    background-color: #0e1111;
+    color: white;
+}
+.ant-layout-content{
+    color: white;
+}
+.ant-layout-footer{
+    background-color: #242424;
+    color: white;
+}
+
+.ant-btn-primary{
+    border: 1px solid white;
+}
+.ant-btn-primary:hover{
+    border-color: #ffb349;
+}
+
+.ant-drawer-body,.ant-drawer-header{
+    background-color: #0e1111;
+}
+
+
+
+@media (width>600px) {
+    .ant-drawer{
+        display:none;
+    }
+}
+@media (width<600px) {
+    .ant-layout-sider , .ant-layout-sider-dark{
+        display:none;
+    }
+}
+
+
