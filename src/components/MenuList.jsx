@@ -3,7 +3,7 @@ import {
     HomeOutlined,
     UserOutlined,
     IdcardOutlined,
-    BookOutlined,
+    SettingOutlined,
     ProjectOutlined,
     PhoneOutlined
   } from '@ant-design/icons';
@@ -13,6 +13,7 @@ import {
   const items = [
     { key: "home", label: "Home",  icon: <HomeOutlined />, },
     { key: "about", label: "About",  icon: <UserOutlined />, },
+    { key: "skills", label: "Skills",  icon: <SettingOutlined />, },
     { key: "experience", label: "Experience",  icon: <IdcardOutlined />, },
     { key: "projects", label: "Projects",  icon: <ProjectOutlined/>, },
     { key: "contact", label: "Contact",  icon: <PhoneOutlined />, }
