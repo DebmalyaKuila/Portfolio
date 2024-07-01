@@ -7,7 +7,7 @@ import Experience from './Experience'
 import Projects from './Projects'
 import Contact from './Contact'
 
-
+import PageFooter from './PageFooter'
 
 
 const PageContent = () => {
@@ -19,6 +19,7 @@ const PageContent = () => {
       <Experience/>
       <Projects/>
       <Contact/>
+      <PageFooter/>
     </div>
   )
 }
