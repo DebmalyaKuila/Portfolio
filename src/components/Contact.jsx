@@ -55,9 +55,7 @@ const Contact = () => {
         </Form.Item>
         
 
-          <Button htmlType='submit' style={{
-            
-          }} type='primary' className='font-medium bg-green-500 text-white rounded my-2 border-none hover:!bg-green-700'>Send Message</Button>
+          <Button htmlType='submit' type='primary' className='font-medium bg-green-500 text-white rounded my-2 border-none hover:!bg-green-700'>Send Message</Button>
 
         
       </Form>

@@ -1,7 +1,7 @@
 import React,{useState}  from 'react'
 import './App.css'
 import { Layout } from 'antd';
-const {  Sider, Content } = Layout;
+const {  Sider, Content ,Footer } = Layout;
 
 import NavBar from './components/NavBar.jsx';
 import MainHeader from './components/MainHeader.jsx';

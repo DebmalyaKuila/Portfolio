@@ -8,7 +8,7 @@ import {
 
 const About = () => {
   return (
-    <div className='flex flex-col w-full justify-center items-center py-4 lg:py-8'>
+    <div className='flex flex-col w-full justify-center items-center py-8'>
       <h2 className='text-2xl lg:text-4xl mb-8'>ABOUT <span style={{color:"#ffb349"}}>ME</span></h2>
       <div className='w-11/12 lg:w-10/12 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia reprehenderit porro nam cum exercitationem saepe voluptas optio magni veniam amet, itaque ullam? Nesciunt quos ad minus odio totam? Facere labore id ducimus enim nulla dolor, minus libero? Illo, animi eos asperiores modi corrupti suscipit similique, doloribus magnam voluptatem aperiam vel maxime debitis totam 
       <br/>

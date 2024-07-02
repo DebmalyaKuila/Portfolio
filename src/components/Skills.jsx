@@ -22,7 +22,7 @@ const Skills = () => {
   return (
     <div className='w-full my-8'>
         <div className='w-10/12 m-auto flex flex-col justify-center items-center'>
-        <h2 className='text-4xl font-bold mb-8 underline text-center'>Technical Skills</h2>
+        <h2 className='text-4xl font-semibold mb-8 text-center'>Technical Skills</h2>
 
         <div className='flex flex-col items-center my-8'>
             <h3 className='text-3xl font-semibold pb-4'>Front-end</h3>

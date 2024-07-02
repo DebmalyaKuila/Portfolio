@@ -2,7 +2,7 @@ import React from 'react'
 import profilePic from "../assets/images/profilePic.jpg"
 const Hero = () => {
   return (
-    <div className=' w-full lg:min-h-full flex items-center flex-wrap px-8 lg:px-28' >
+    <div className=' w-full lg:min-h-full flex items-center flex-wrap px-8 lg:px-28 mb-8' >
       <div className='w-full lg:w-1/2 lg:p-10'>
       <div className='flex justify-center items-center'>
         <img src={profilePic} alt='Debmalya Kuila' style={{borderRadius:"50%" ,border:"2px solid #ffb349"}} className='profilePic'/>
