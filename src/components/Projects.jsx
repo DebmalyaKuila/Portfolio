@@ -27,8 +27,8 @@ const Projects = () => {
                             }
                         </div>
               <div className='pt-4 w-full'>
-              <Button type='Link' href='https://www.google.com' className='bg-orange-500 text-white mr-6'>Visit website</Button>
-              <Button type='Link' href='https://www.google.com' className='bg-orange-500 text-white'>source Code</Button>
+              <Button type='Link' href='https://www.google.com' target="_blank" className='bg-orange-500 text-white mr-6'>Visit website</Button>
+              <Button type='Link' href='https://www.google.com' target="_blank" className='bg-orange-500 text-white'>source Code</Button>
             </div>
             </div>
           </div>
@@ -54,8 +54,8 @@ const Projects = () => {
                             }
                         </div>
               <div className='pt-4 w-full'>
-              <Button type='Link' href='https://www.google.com' className='bg-orange-500 text-white mr-6'>Visit website</Button>
-              <Button type='Link' href='https://www.google.com' className='bg-orange-500 text-white'>source Code</Button>
+              <Button type='Link' href='https://www.google.com' target="_blank" className='bg-orange-500 text-white mr-6'>Visit website</Button>
+              <Button type='Link' href='https://www.google.com' target="_blank" className='bg-orange-500 text-white'>source Code</Button>
             </div>
             </div>
           </div>
@@ -81,8 +81,8 @@ const Projects = () => {
                             }
                         </div>
               <div className='pt-4 w-full'>
-              <Button type='Link' href='https://www.google.com' className='bg-orange-500 text-white mr-6'>Visit website</Button>
-              <Button type='Link' href='https://www.google.com' className='bg-orange-500 text-white'>source Code</Button>
+              <Button type='Link' href='https://www.google.com' target="_blank" className='bg-orange-500 text-white mr-6'>Visit website</Button>
+              <Button type='Link' href='https://www.google.com' target="_blank" className='bg-orange-500 text-white'>source Code</Button>
             </div>
             </div>
           </div>
