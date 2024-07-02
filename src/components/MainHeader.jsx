@@ -19,7 +19,7 @@ const MainHeader = ({collapsed,toggleCollapsed}) => {
     </Button>
     <Button type='primary' 
     style={{backgroundColor:"inherit",color:"white"}}
-    href="../assets/Resume/Debmalya_Kuila_Resume.pdf"
+    href="../../public/Debmalya_Kuila_Resume.pdf"
     download="Debmalya_Kuila_Resume.pdf"
     >Download CV</Button>
     </Header>
