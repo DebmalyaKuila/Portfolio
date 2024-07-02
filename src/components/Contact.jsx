@@ -22,17 +22,48 @@ const Contact = () => {
         onFinish={handleFormSubmit}
       >
         
-        <Form.Item label={<label className='text-lg text-white font-medium'>Full name :</label>} name='name'>
-          <Input placeholder='Enter your name'/>
+        <Form.Item label={<label className='text-lg text-white font-medium'>Full name :</label>} 
+        name='name'
+        rules={[
+          {
+            required: true,
+            message: 'Please input your name',
+            whitespace: false,
+          },
+        ]}
+        >
+          <Input placeholder='Enter your name' allowClear/>
         </Form.Item>
-        <Form.Item label={<label className='text-lg text-white font-medium'>Email :</label>} name='email'>
-          <Input placeholder='Enter email id'/>
+        <Form.Item 
+        label={<label className='text-lg text-white font-medium'>Email :</label>} 
+        name='email'
+        rules={[
+          {
+            type: 'email',
+            message: 'The input is not valid E-mail!',
+          },
+          {
+            required: true,
+            message: 'Please input your E-mail!',
+          },
+        ]}
+        >
+          <Input placeholder='Enter email id' allowClear/>
         </Form.Item>
-        <Form.Item label={<label className='text-lg text-white font-medium'>Subject :</label>} name='subject'>
-          <Input placeholder='Enter Subject'/>
+        <Form.Item label={<label className='text-lg text-white font-medium'>Subject :</label>} 
+        name='subject'
+        rules={[
+          {
+            required: true,
+            message: 'Subject is required',
+            whitespace: true,
+          },
+        ]}
+        >
+          <Input placeholder='Enter Subject' allowClear/>
         </Form.Item>
         <Form.Item label={<label className='text-lg text-white font-medium'>Message :</label>} name='message'>
-          <TextArea rows={4} placeholder='Enter your message'/>
+          <TextArea rows={4} showCount maxLength={250} allowClear placeholder='Enter your message'/>
         </Form.Item>
           <Button htmlType='submit' type='primary' className='font-medium bg-green-500 text-white rounded my-2 border-none hover:!bg-green-700'>Send Message</Button>
       </Form>

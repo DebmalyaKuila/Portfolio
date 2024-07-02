@@ -36,6 +36,9 @@
 .ant-drawer-body,.ant-drawer-header{
     background-color: #0e1111;
 }
+.ant-input-suffix > .ant-input-data-count{
+    color: white;
+}
 
 
 
