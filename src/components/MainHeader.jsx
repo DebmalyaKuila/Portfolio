@@ -17,7 +17,11 @@ const MainHeader = ({collapsed,toggleCollapsed}) => {
       >
         {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
     </Button>
-    <Button type='primary' style={{backgroundColor:"inherit",color:"white"}}>Download CV</Button>
+    <Button type='primary' 
+    style={{backgroundColor:"inherit",color:"white"}}
+    href="../assets/Resume/Debmalya_Kuila_Resume.pdf"
+    download="Debmalya_Kuila_Resume.pdf"
+    >Download CV</Button>
     </Header>
   )
 }
