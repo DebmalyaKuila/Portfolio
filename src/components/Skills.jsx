@@ -20,8 +20,8 @@ import { SiPostman } from "react-icons/si";
 import { SiSelenium } from "react-icons/si";
 const Skills = () => {
   return (
-    <div className='w-full my-8'>
-        <div className='w-10/12 m-auto flex flex-col justify-center items-center'>
+    <div className='w-full py-8' id='skills'>
+        <div className='w-10/12 m-auto flex flex-col justify-center items-center' >
         <h2 className='text-4xl font-semibold mb-8 text-center'>Technical Skills</h2>
 
         <div className='flex flex-col items-center my-8'>

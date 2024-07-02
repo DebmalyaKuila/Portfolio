@@ -4,7 +4,7 @@ import {Button,Image} from "antd"
 import Shopzee from "../assets/images/project images/shopzee/shopzee_home.png"
 const Projects = () => {
   return (
-    <div className='w-10/12 m-auto'>
+    <div className='w-10/12 m-auto' id="projects">
       <h2 className='text-center font-semibold text-2xl lg:text-4xl my-16'>Projects</h2>
       <div  className='flex flex-col m-auto items-center '>
 

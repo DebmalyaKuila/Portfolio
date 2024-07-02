@@ -2,8 +2,8 @@ import React from 'react'
 
 const Experience = () => {
     return (
-        <div className='my-8 w-full'>
-            <h2 className='text-center font-semibold text-2xl lg:text-4xl my-16'>Experience</h2>
+        <div className='my-8 w-full' id="experience">
+            <h2 className='text-center font-semibold text-2xl lg:text-4xl my-10'>Experience</h2>
             <div className='w-10/12 flex flex-col m-auto items-center'>
                 <div className='w-full text flex flex-wrap items-start justify-center flex-col lg:flex-row my-8'>
                     <div className='w-full lg:w-1/4 lg:text-right pr-20 pb-4 font-semibold'>Mar. 2021 - June 2021</div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useLocation} from 'react'
 import { Layout,Drawer } from 'antd';
 const { Header,Sider } = Layout;
 
@@ -31,6 +31,7 @@ const NavBar = ({collapsed,toggleCollapsed}) => {
         placement='left'
         open={collapsed}
         onClose={toggleCollapsed}
+        onClick={toggleCollapsed}
         width='200px'
         >
           <MenuList/>

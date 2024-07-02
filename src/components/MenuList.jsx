@@ -21,12 +21,22 @@ import {
 
 const MenuList = () => {
 
+  const handleMenuClick = (e) => {
+    console.log(e.key);
+    // Additional logic if needed
+    const element = document.getElementById(e.key);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  };
+
     return (
       <>
       <Menu
       theme='dark'
       items={items}
       defaultSelectedKeys={['home']}
+      onClick={handleMenuClick}
       style={{
         background:"#0e1111"
       }}
