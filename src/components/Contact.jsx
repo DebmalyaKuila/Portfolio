@@ -1,12 +1,12 @@
 import React,{useState,useRef} from 'react';
 import emailjs from '@emailjs/browser';
-
 import {
   Button,
   Form,
   Input,
 } from 'antd';
 const { TextArea } = Input;
+import { motion } from 'framer-motion';
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -47,7 +47,11 @@ const Contact = () => {
     <div className='w-10/12 m-auto my-8' id="contact">
     <h2 className='text-center font-semibold text-2xl lg:text-4xl my-12'>Contact Me</h2>
 
-<div className='w-full flex justify-center ' >
+<motion.div 
+initial={{y:-50 ,opacity:0}} 
+whileInView={{y:0 ,opacity:1}} 
+transition={{duration:0.5 ,delay:0}}
+className='w-full flex justify-center ' >
 <Form
         name="contact_form"
         layout="vertical"
@@ -108,7 +112,7 @@ const Contact = () => {
           >Send Message</Button>
            {stateMessage && <p className='text-white'>{stateMessage}</p>}
       </Form>
-      </div>
+      </motion.div>
 
     </div>
   )

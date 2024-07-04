@@ -18,13 +18,19 @@ import { FaPython } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa6";
 import { SiPostman } from "react-icons/si";
 import { SiSelenium } from "react-icons/si";
+
+import {motion} from "framer-motion"
 const Skills = () => {
   return (
     <div className='w-full py-8' id='skills'>
         <div className='w-10/12 m-auto flex flex-col justify-center items-center' >
         <h2 className='text-4xl font-semibold mb-8 text-center'>Technical Skills</h2>
 
-        <div className='flex flex-col items-center my-8'>
+        <motion.div 
+        initial={{x:+100 ,opacity:0}} 
+        whileInView={{x:0 ,opacity:1}} 
+        transition={{duration:0.5 ,delay:0}}
+        className='flex flex-col items-center my-8'>
             <h3 className='text-3xl font-semibold pb-4'>Front-end</h3>
             <div className='flex flex-wrap justify-center items-center gap-4'>
                 <div className='flex flex-col justify-center items-center bg-inherit mx-8'>
@@ -52,9 +58,13 @@ const Skills = () => {
                     <span>Ant Design</span>
                 </div>
             </div>
-        </div>
+        </motion.div>
 
-        <div className='flex flex-col items-center my-8'>
+        <motion.div
+        initial={{x:+100 ,opacity:0}} 
+        whileInView={{x:0 ,opacity:1}} 
+        transition={{duration:0.5 ,delay:0}} 
+        className='flex flex-col items-center my-8'>
             <h3 className='text-3xl font-semibold pb-4'>Back-end</h3>
             <div className='flex flex-wrap justify-center items-center gap-4'>
                 <div className='flex flex-col justify-center items-center bg-inherit mx-8'>
@@ -74,9 +84,13 @@ const Skills = () => {
                     <span>MySQL</span>
                 </div>
             </div>
-        </div>
+        </motion.div>
 
-        <div className='flex flex-col items-center my-8'>
+        <motion.div 
+        initial={{x:-100 ,opacity:0}} 
+        whileInView={{x:0 ,opacity:1}} 
+        transition={{duration:0.5 ,delay:0}}
+        className='flex flex-col items-center my-8'>
             <h3 className='text-3xl font-semibold pb-4'>Programming</h3>
             <div className='flex flex-wrap justify-center items-center gap-4'>
                 <div className='flex flex-col justify-center items-center bg-inherit mx-8'>
@@ -88,10 +102,14 @@ const Skills = () => {
                     <span>Python</span>
                 </div>
             </div>
-        </div>
+        </motion.div>
 
 
-        <div className='flex flex-col items-center my-8'>
+        <motion.div 
+        initial={{x:+100 ,opacity:0}} 
+        whileInView={{x:0 ,opacity:1}} 
+        transition={{duration:0.5 ,delay:0}}
+        className='flex flex-col items-center my-8'>
             <h3 className='text-3xl font-semibold pb-4'>Others</h3>
             <div className='flex flex-wrap justify-center items-center gap-4'>
                 <div className='flex flex-col justify-center items-center bg-inherit mx-8'>
@@ -107,7 +125,7 @@ const Skills = () => {
                     <span>Selenium</span>
                 </div>
             </div>
-        </div>
+        </motion.div>
 
         </div>
     </div>
