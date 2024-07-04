@@ -9,8 +9,8 @@ This is a portfolio website created by Debmalya Kuila to showcase his skills as 
 
 
 # Techstack used : 
-1.Vite + ReactJS - vite makes developement really smooth
-2.Tailwind CSS - a utility-first CSS framework
-3.Ant design - a component library
-4.Frame motion - a motion library for React
-5.EmailJS - for contact form
+1.Vite + ReactJS - vite makes developement really smooth<br/>
+2.Tailwind CSS - a utility-first CSS framework<br/>
+3.Ant design - a component library<br/>
+4.Frame motion - a motion library for React<br/>
+5.EmailJS - for contact form<br/>
