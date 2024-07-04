@@ -12,7 +12,10 @@ const Hero = () => {
         <div className='flex flex-col items-center lg:items-start'>
           <h1 className='text-3xl font-semibold lg:text-6xl'>Debmalya Kuila</h1>
           <span className='text-xl font-thin py-4 lg:text-3xl bg-gradient-to-r from-orange-300 via-slate-200 to-orange-500 bg-clip-text text-transparent'>Full stack Developer</span>
-          <span className='tracking-tighter py-6 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam enim molestiae sunt praesentium debitis nisi. Culpa reprehenderit molestias tenetur inventore facilis a voluptatum iste suscipit repellat, tempore, vero, ess fugit ea provident magnam eos esse quibusdam delectus ab sint impedit sapiente sequi? Enim necessitatibus fugit illum, nihil minima illo facilis eius doloremque praesentium quia neque modi? Cumque laboriosam repellat, optio obcaecati asperiores sit reprehenderit quam ex ea reiciendis esse. Accusantium eveniet voluptatibus blanditiis aut rerum porro illo id beatae quisquam inventore, quod saepe non nulla, itaque ullam? Et, optio aliquid fugiat necessitatibus perferendis commodi, tempora magnam ipsum neque quam iusto quibusdam accusamus sequi in, velit nulla sit quia animi pariatur architecto? Ut iure at beatae vitae. Laudantium perferendis nihil amet iste at nemo esaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
+          <p className='tracking-tighter py-6 text-lg sm:text-base'>I am a passionate full stack MERN developer with a knack of crafting seamless digital experiences from frontend to backend development . I have honed my skills in front-end technologies like ReactJS and Tailwind CSS , backend technologies like NodeJS and ExpressJS , caching services like Redis and data management and storage using MongoDB and MySQL .
+            <br/>
+          Beside that, I am also a dedicated C++ programmer with a deep passion for problem solving with a strong foundation in object-oriented programming principles and application of data structures and algorithms . Whether I'm optimizing algorithms for performance, designing scalable systems, or diving into low-level memory management, I thrive on the intricacies of the language whether it's C++ , Python or JavaScript .
+          </p>
         </div>
       </div>
       

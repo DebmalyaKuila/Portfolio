@@ -10,9 +10,9 @@ const About = () => {
   return (
     <div className='flex flex-col w-full justify-center items-center py-8' id="about">
       <h2 className='text-2xl lg:text-4xl mb-8'>ABOUT <span style={{color:"#ffb349"}}>ME</span></h2>
-      <div className='w-10/12 lg:w-8/12 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia reprehenderit porro nam cum exercitationem saepe voluptas optio magni veniam amet, itaque ullam? Nesciunt quos ad minus odio totam? Facere labore id ducimus enim nulla dolor, minus libero? Illo, animi eos asperiores modi corrupti suscipit similique, doloribus magnam voluptatem aperiam vel maxime debitis totam 
+      <div className='w-10/12 lg:w-8/12 text-lg sm:text-base'>I'm Debmalya Kuila , a 4th year electronics and communication (ECE) engineering student of National Institute of Technology(NIT),Arunachal Ptadesh . I am a dedicatedand  passionate Full Stack Developer specializing in the MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack. With a solid foundation in computer science and years of hands-on experience, I thrive on turning ideas into powerful software solutions. My journey began with a designing intuitive and responsive frontend interfaces , complemented by fascination for building backend systems .
       <br/>
-      aliquid dolores laborum reprehenderit quo, blanditiis cumque sapiente? Soluta reprehenderit quibusdam iure, voluptas minima, quidem praesentium vel voluptatum magnam aliquam in ad impedit maiores exercitationem laboriosam. Et dolorum distinctio doloribus, omnis fugit harum ducimus impedit qui numquam minima aliquam, quia accusantium animi magni laudantium dignissimos earum.</div>
+      Beyond coding, I am dedicated to continuous learning and staying updated with the latest industry trends and best practices . My goal is to not only meet but exceed expectations by delivering clean , maintainable code that powers exceptional user experiences . Whether collaborating with teams or independently tackling challenges , I approach every project with enthusiasm and a commitment to excellence. </div>
       <h2 className='text-lg lg:text-xl my-8'>My Intrests</h2>
       <div className='w-10/12 flex flex-row justify-evenly flex-wrap' >
         <div className=' flex flex-col items-center p-4 my-4 md:my-2'>
